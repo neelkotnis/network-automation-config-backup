@@ -83,6 +83,14 @@ Successful: X
 Failed: Y
 ```
 
+## Change Detection
+
+The tool compares the latest configuration with the previous backup.
+
+- `[FIRST BACKUP]` → No previous config found  
+- `[NO CHANGE]` → Config unchanged  
+- `[CHANGE DETECTED]` → Config differences found  
+
 ## Notes
 - Uses SSH (port 22) to connect to devices
 - Device type is currently set to cisco_ios
